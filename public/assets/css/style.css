@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(234, 245, 255);
+}
+.main{
+    margin: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    max-width: 800px;
+    box-shadow: rgba(0, 0, 0, 0.068) 0px 0px 16px;
+}
+.main .left{
+    background-color: rgb(255, 255, 255);
+    flex-basis: 20%;
+    min-width: 180px;
+    border-radius: 6px 0 0 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.victims{
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    list-style: none;
+}
+.victims li{
+    display: flex;
+    align-items: center;
+    transition: margin ease 0.3s;
+}
+.victims li:hover{
+   margin-left: 10px;
+   cursor: pointer;
+   color: rgb(42, 42, 185);
+}
+
+.left .left-navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+.left-navigation span:first-child{
+    background-color: rgb(255, 255, 255);
+    padding: 2px 10px;
+    border-radius: 6px;
+    border: rgba(0, 0, 0, 0.178) solid 1px;
+}
+.left-navigation span:nth-child(2){
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+.left-navigation span:last-child:hover{
+    cursor: pointer;
+    background-color: rgb(207, 86, 38);
+    color: white;
+}
+.left-navigation span:last-child{
+    background-color: rgb(201, 201, 201);
+    padding: 3px;
+    border-radius: 6px;
+}
+.main .right{
+    background-color: rgb(186, 211, 223);
+    flex-basis: 80%;
+    min-width: 559px;
+    border-radius: 0 6px 6px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right .info{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+.right button{
+    width: fit-content;
+    padding: 8px 16px;
+    border: rgba(128, 128, 128, 0.527) 0.5px solid;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 6px;
+    box-shadow: rgb(84, 190, 22) 0 2px 0;
+   
+}
+.right button:hover{
+    cursor: pointer;
+    color: rgb(182, 92, 32);
+}
+.right button:active{
+    box-shadow: none;
+    margin-top: 2px;
+    margin-bottom: -2px;
+}
+.hr{
+    height: 0.5px;
+    width: 100%;
+    background-color: rgba(122, 122, 122, 0.637);
+}
+textarea{
+    border-radius: 6px;
+    border: 0;
+    padding: 10px;
+}
+textarea:focus{
+    outline: none;
+}
+.info{
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
